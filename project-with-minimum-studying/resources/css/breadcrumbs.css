@@ -1,0 +1,37 @@
+/* SPECIFICALLY FOR THE BREADCRUMBS BCS WE NOT FUCKIN W HEESE */
+.breadcrumbs{
+width: 100%; 
+z-index: 10;
+margin:5px 0px;
+display: flex-end;
+padding:10px 0;
+text-align: center;
+font-weight: bold;
+font-family: 'Vollkorn', serif;
+border-top: 3px solid #F0907A;
+border-bottom: 3px solid #F0907A;
+font-size: 1.7rem;
+}
+  
+.breadcrumbs  li{
+display: inline;
+margin: 0 10px;
+}
+.breadcrumbs li+li::before{
+padding: 10px;
+content: "/";
+}
+
+.breadcrumbs li+li::before{
+    padding: 10px;
+}
+
+.breadcrumbs li.attribute a{
+color: darkgray;
+}
+.breadcrumbs li.attribute::after{
+content: "x";
+color: red;
+font-size: 10px;
+vertical-align: super;
+}

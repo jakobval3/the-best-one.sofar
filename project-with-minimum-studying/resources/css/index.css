@@ -1,0 +1,175 @@
+ /* the fonts for input :
+ font-family: 'Raleway', sans-serif;  <--the text one
+font-family: 'Vollkorn', serif;     <---the banner one  */
+
+/* triad of colors:
+ the light pink for txt #F0907A & the blue for bachground #283348 
+ & yellow for who knows what #C0F075 <-- pairs perfectly w blue as bacground
+
+ */
+
+html{
+font-size: 20px;
+}
+
+/* banner section */
+h1{
+color:white;   
+letter-spacing: 1.5em;
+font-family: 'Vollkorn', serif;
+font-weight:bold;
+text-align: center;
+text-decoration: underline 1px;
+padding: 5%;
+font-size: 2.5rem;
+
+}
+
+header{
+background-image: url('https://wallpapercave.com/uwp/uwp1642340.jpeg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+justify-content: center;
+padding: 14%;
+text-align: center;
+}
+
+/* div header section */
+
+.header{
+margin:5%;
+}
+
+.subheader h2{
+font-family: 'Raleway', sans-serif;
+color: #283348;
+padding: 10px 5px;
+background-color: #F0907A; 
+text-align: center;
+text-transform: uppercase;
+cursor: pointer;
+border:5px;
+margin: 10px 10px;
+}
+
+.subheader h2:hover{
+cursor:pointer;
+background-color:#C47664;
+font-weight: bold;
+padding: 10px 20px;
+}
+
+.subheader h2:active{
+font-weight: bold;
+color: white;
+}
+
+/*  article section */
+
+article{
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+text-align: center;
+padding:50px;
+margin: 2% 30%;
+}
+
+article .tree h2{
+font-size: 22px;
+font-weight: bold;
+text-decoration: 1px underline;
+font-family: 'Vollkorn', serif; 
+}
+
+p{
+
+font-size: 1.2rem;
+text-align: center;
+min-width: 300px;
+max-width: 700px;
+}
+
+/* image-window */
+
+
+
+/* aside section */
+
+aside{
+margin: 15px 10px;
+padding: 30px 30px;
+border: 1px black;
+border-radius: 10px;
+text-align: center;
+overflow: hidden;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+border: 2px solid black;
+   
+}
+
+
+
+aside a{
+color: darkgrey;
+}
+
+/* activities */
+
+.activities{
+padding: 10px 10px;
+text-align: center;
+border: 1px white;
+}
+
+.activities p{
+font-size: 1.2rem;
+color: black;
+margin: 15px 20px;
+padding: 20px 30px;
+background-color:#F5EFAE;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+text-decoration: underline ;
+cursor:pointer;
+display: inline-block;
+}
+
+h2{
+font-family: 'Vollkorn', serif;
+font-size: 2em;
+font-weight: bold;
+text-align: center;
+padding: 10px 15px;
+background-color: #F0907A;
+color: white;
+
+}
+
+.search-bar{
+color:grey;
+padding: 1% 4%;
+position: relative;
+
+}
+
+
+footer h2{
+text-align: center;
+padding: 10px 30px;
+background-color: #EB6547;
+color: #283348;
+}
+
+@media screen and (max-width:480px){
+    html{ 
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1600px){
+    aside ul{
+        font-size: 1.7rem;
+    }
+}
